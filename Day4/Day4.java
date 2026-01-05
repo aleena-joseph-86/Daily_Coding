@@ -21,6 +21,7 @@ class Day4 {
     int sum = 0;
     int remNum = num; // reassigning because we need the value of num to check it's equality with sum later
 
+    // Logic to check whether a number is a Strong Number
     while(remNum>0) {
       lasDigit = remNum%10;
       sum+=factorial(lasDigit);
